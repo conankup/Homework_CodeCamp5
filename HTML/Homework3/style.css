@@ -22,11 +22,16 @@ table{
     width: 100%;
     border-collapse: collapse;
     color: red;
+    
 }
 table, th, td{
-    font-size: 2rem;
-    border: 0.2rem dotted #777777
+    font-size: 1.3em;
+    border: 0.2rem dotted #777777;
+    
 }
 th, td {
     padding: 15px;
-  }
+}
+th.name{
+    column-width: 250px; 
+}
